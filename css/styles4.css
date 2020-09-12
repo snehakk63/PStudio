@@ -64,10 +64,13 @@ p {
 }
 
 /* titlesection */
-#title .container-fluid {
-  text-align: left;
-  padding: 3% 15% 7%;
+@media (min-width:1000px) {
+  #title .container-fluid {
+    text-align: left;
+    padding: 3% 15% 7%;
+  }
 }
+
 
 /* title-image */
 .title-image {
