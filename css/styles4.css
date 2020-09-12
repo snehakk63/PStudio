@@ -78,13 +78,15 @@ p {
 
   position: absolute;
   bottom: 150px;
+  margin-left: 60px;
 }
 .title-image1{
   width: 80%;
 transform: rotate(-25deg);
   position: absolute;
-  top: 150px;
-  padding-left: 20px;
+  top: 200px;
+    margin-left: 80px;
+
 }
 
 /* downloadbutton */
