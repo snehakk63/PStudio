@@ -1,0 +1,192 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+p {
+  color: grey;
+}
+
+/* heading */
+.big-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  color: #fff;
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* section */
+.colored-section {
+  background-color:#003f5c;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* <!-- Nav Bar --> */
+.navbar {
+  position: relative;
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light'
+
+}
+
+/* titlesection */
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+/* title-image */
+.title-image {
+  width: 100%;
+
+  position: absolute;
+  bottom: 150px;
+}
+.title-image1{
+  width: 80%;
+transform: rotate(-25deg);
+  position: absolute;
+  top: 150px;
+  padding-left: 20px;
+}
+
+/* downloadbutton */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* feature */
+.feature-title
+{
+  padding-bottom: 80px;
+}
+#features {
+  font-family: 'Montserrat';
+  position: relative;
+  z-index: 1;
+}
+
+.feature-heading {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light"
+
+}
+
+.feature-box {
+  padding:0 3% 3% 3% ;
+}
+
+.product-img {
+  height: 300px; width: 220px;
+  position: relative; left: 10px; top: 10px;
+border-color: black;
+border: solid 10px;
+
+  margin-bottom: 1rem;
+}
+
+
+/* Testimonial */
+#testimonials {
+  background-color: #4f8a8b;
+}
+
+.testimonials-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press section */
+#press {
+  background-color:#4f8a8b;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricingsection */
+#pricing {
+  padding: 100px;
+}
+
+.price-heading {
+  font-size: 1.5rem;
+}
+
+.price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+
+  }
+  .title-image1{
+    position: static;
+    transform: rotate(25deg);
+width: 100%;
+  }
+}
+
+/* call to action */
+/* footer */
+#footer {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.social-icon {
+  padding: 2% 1%;
+}
